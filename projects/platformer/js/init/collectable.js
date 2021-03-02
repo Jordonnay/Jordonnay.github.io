@@ -1,4 +1,4 @@
-(function (window) {
+32(function (window) {
     'use strict';
     window.opspark = window.opspark || {};
     window.opspark.collectable = window.opspark.collectable || {};
@@ -30,17 +30,17 @@
      *      gravity: OPTIONAL The gravitational pull on the collectable.
      *      bounce: OPTIONAL A factor effecting how much the collectable will bounce off platforms, etc.
      */ 
-    function init(game) {
+    function init() {
         let createCollectable = collectable.create;
+    
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         // example: 
-        createCollectable(type.steve, 200, 170, 6, 0.7);
-        
-        
-        
+       // createCollectable(type.steve, 200, 170, 6, 0.7);
+        //createCollectable(type.steve, 600, 170, 6, 0.7);
+         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
